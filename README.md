@@ -7,7 +7,7 @@
 
 <h3 align="center">
   Conceitos do React Native
-</h3>~
+</h3>
 
 <p align="center">
   <a href="#🚀-sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
