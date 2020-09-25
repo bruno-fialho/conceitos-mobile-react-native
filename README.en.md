@@ -17,31 +17,44 @@
 
 ## 🚀 About the application
 
-A simple application with [React Native](https://reactnative.dev/docs/0.60/getting-started)!
+A simple application with React Native.
 
-This is an application to store projects in portfolio, which will allow you to create and list projects.
+This is an application to storage projects of your portfolio, which allows you to create and list projects.
+
+`Important`: This application requires the [backend](https://github.com/bruno-fialho/conceitos-back-end-nodejs).
 
 ### Application Routes
 
 The application has two routes:
 
-- **`List the projects from API`**: Should be able to create a list with the **title** field of all the repositories that are registered in your API..
+- **`List the projects from API`**: Should be able to create a list with the **title** field of all the repositories that are registered in your API.
 
-- **`Adding a project to your API`**: Should be able to add a new item to the API via a button with the text **Adicionar Projeto** and, after creating, should be able to display the name<sup>*</sup>.
+- **`Adding a project to your API`**: Should be able to add a new item to the API via a button with the text **Adicionar Projeto**<sup>1</sup> and, after creating, should be able to display the name<sup>2</sup>.
 
-<sup>*</sup>Automatically generated name
+<sup>1</sup> Adicionar projeto (pt-br) = Add Project (eng)
 
-## 💿 Required packages
+<sup>2</sup> Automatically generated name
 
-The following is a list of the packages needed for the application (Using [yarn](https://yarnpkg.com/)):
+## 💿 Installed packages
+
+The following is a list of installed packages:
 
 ### On the Frontend
 
-- yarn add [axios](https://www.npmjs.com/package/axios)
+- [react react-test-renderer](https://reactjs.org/)
+- [react-native](https://github.com/facebook/react-native#readme)
+- [axios](https://github.com/axios/axios)
+- [@babel/core @babel/runtime](https://babeljs.io/)
+- [jest babel-jest](https://github.com/facebook/jest#readme)
+- [metro-react-native-babel-preset](https://github.com/facebook/metro#readme)
+
+  Optional
+- [eslint](https://eslint.org/)
+- [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community#readme)
 
 ### On the Backend
 
-- yarn add [cors](https://www.npmjs.com/package/cors)
+- [cors](https://www.npmjs.com/package/cors)
 
 ## 📝 Licence
 
